@@ -29,6 +29,12 @@ java -jar apexdoc.jar
     -a '/Users/dhabib/Dropbox/Cumulus/ApexDoc/projectheader.htm'
     -g 'http://github.com/SalesforceFoundation/Cumulus/blob/dev/src/classes/'
 ```
+or
+```
+java -jar apexdoc.jar
+    -s '/run/media/diegomarcelo/fedora_localhost-live/home/diego/Documents/Diego/DevOrg/force-app/main/default/classes'
+    -t '~/'
+```
 
 ## Documenting Class Files
 ApexDoc scans each class file, and looks for comment blocks with special keywords to identify the documentation to include for a given class, property, or method.  The comment blocks must always begin with /** (or additional *'s) and can cover multiple lines.  Each line must start with * (or whitespace and then *).  The comment block ends with */.  Special tokens are called out with @token.
