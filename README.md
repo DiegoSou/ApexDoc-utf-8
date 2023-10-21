@@ -1,4 +1,5 @@
 ### Fork Apex Doc
+UTF-8 compatible (pt-br) and Dark Mode for devs
 
 <img src='https://github.com/DiegoSou/ApexDoc-utf-8/assets/79648814/e3efeb58-c286-45aa-93e2-8fae667f9099'></img>
 
