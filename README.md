@@ -32,7 +32,7 @@ java -jar apexdoc.jar
 or
 ```
 java -jar apexdoc.jar
-    -s '/run/media/diegomarcelo/fedora_localhost-live/home/diego/Documents/Diego/DevOrg/force-app/main/default/classes'
+    -s '/force-app/main/default/classes'
     -t '~/'
 ```
 
