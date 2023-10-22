@@ -22,7 +22,7 @@ ApexDoc was originally created by Aslam Bari (http://techsahre.blogspot.com/2011
 | -g *source_url* | A URL where the source is hosted (so ApexDoc can provide links to your source). Optional.|
 | -h *home_page* | The full path to an html file that contains the contents for the home page's content area. Optional.|
 | -a *banner_page* | The full path to an html file that contains the content for the banner section of each generated page. Optional.|
-| -p *scope* | A semicolon separated list of scopes to document.  Defaults to 'public;private;istest'. Optional.|
+| -p *scope* | A semicolon separated list of scopes to document.  Defaults to 'global;public;private;protected;webService'. Optional.|
 
 ## Usage
 Copy apexdoc.jar file to your local machine, somewhere on your path.  Each release tag in gitHub has the matching apexdoc.jar attached to it.  Make sure that java is on your path.  Invoke ApexDoc like this example:
@@ -30,7 +30,7 @@ Copy apexdoc.jar file to your local machine, somewhere on your path.  Each relea
 java -jar apexdoc.jar
     -s '/Users/dhabib/Workspaces/Force.com IDE/Cumulus3/src/classes'
     -t '/Users/dhabib/Dropbox/Cumulus/ApexDoc'
-    -p 'global;public;private;protected;testmethod;webService'
+    -p 'global;public;private;protected;istest;webService'
     -h '/Users/dhabib/Dropbox/Cumulus/ApexDoc/homepage.htm'
     -a '/Users/dhabib/Dropbox/Cumulus/ApexDoc/projectheader.htm'
     -g 'http://github.com/SalesforceFoundation/Cumulus/blob/dev/src/classes/'
