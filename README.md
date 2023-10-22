@@ -17,12 +17,12 @@ ApexDoc was originally created by Aslam Bari (http://techsahre.blogspot.com/2011
 ## Command Line Parameters
 | parameter | description |
 |-------------------------- | ---------------------|
-| -s *source_directory* | The folder location which contains your apex .cls classes.|
-| -t *target_directory* | The folder location where documentation will be generated to.|
+| -s *source_directory* | The folder location which contains your apex .cls classes. Required.|
+| -t *target_directory* | The folder location where documentation will be generated to. Optional.|
 | -g *source_url* | A URL where the source is hosted (so ApexDoc can provide links to your source). Optional.|
 | -h *home_page* | The full path to an html file that contains the contents for the home page's content area. Optional.|
 | -a *banner_page* | The full path to an html file that contains the content for the banner section of each generated page. Optional.|
-| -p *scope* | A semicolon separated list of scopes to document.  Defaults to 'global;public;webService'. Optional.|
+| -p *scope* | A semicolon separated list of scopes to document.  Defaults to 'public;private;istest'. Optional.|
 
 ## Usage
 Copy apexdoc.jar file to your local machine, somewhere on your path.  Each release tag in gitHub has the matching apexdoc.jar attached to it.  Make sure that java is on your path.  Invoke ApexDoc like this example:
