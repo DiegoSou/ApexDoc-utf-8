@@ -37,9 +37,7 @@ java -jar apexdoc.jar
 ```
 or
 ```
-java -jar apexdoc.jar
-    -s '/force-app/main/default/classes'
-    -t '~/'
+java -jar apexdoc.jar -s '/force-app/main/default/classes'
 ```
 
 ## Documenting Class Files
