@@ -1,5 +1,5 @@
 ### Fork Apex Doc
-UTF-8 compatible (pt-br) and Dark Mode for devs
+UTF-8 compatible (pt-br) and Dark Mode for devs + protected scope
 
 <img src='https://github.com/DiegoSou/ApexDoc-utf-8/assets/79648814/e3efeb58-c286-45aa-93e2-8fae667f9099'></img>
 
@@ -29,7 +29,7 @@ Copy apexdoc.jar file to your local machine, somewhere on your path.  Each relea
 java -jar apexdoc.jar
     -s '/Users/dhabib/Workspaces/Force.com IDE/Cumulus3/src/classes'
     -t '/Users/dhabib/Dropbox/Cumulus/ApexDoc'
-    -p 'global;public;private;testmethod;webService'
+    -p 'global;public;private;protected;testmethod;webService'
     -h '/Users/dhabib/Dropbox/Cumulus/ApexDoc/homepage.htm'
     -a '/Users/dhabib/Dropbox/Cumulus/ApexDoc/projectheader.htm'
     -g 'http://github.com/SalesforceFoundation/Cumulus/blob/dev/src/classes/'
